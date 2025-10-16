@@ -1,0 +1,27 @@
+{
+  "name": "clone_disneyplus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealherick/clone_disneyplus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealherick/clone_disneyplus/issues"
+  },
+  "homepage": "https://github.com/therealherick/clone_disneyplus#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.93.2"
+  }
+}
