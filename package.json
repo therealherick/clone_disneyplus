@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,9 +20,12 @@
   "homepage": "https://github.com/therealherick/clone_disneyplus#readme",
   "description": "",
   "devDependencies": {
-    "gulp": "^5.0.1",
     "gulp-dart-sass": "^1.1.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.93.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
   }
 }
